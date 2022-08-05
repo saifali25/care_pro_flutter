@@ -148,7 +148,8 @@ class _SignupScreenState extends State<SignupScreen> {
                         onTap: () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => AppointmentScreen())),
+                                builder: (context) =>
+                                    const AppointmentsScreen())),
                         child: Container(
                           height: 60.h,
                           width: 343.w,

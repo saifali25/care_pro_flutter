@@ -8,4 +8,5 @@ class AppImages {
   static String facebook = "assets/facebook.png";
   static String google = "assets/google.png";
   static String apple = "assets/apple.png";
+  static String doctor = "assets/doctor.jpg";
 }

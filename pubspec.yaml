@@ -37,6 +37,8 @@ dependencies:
   flutter_screenutil: ^5.5.3+2
   persistent_bottom_nav_bar: ^4.0.2
   social_login_buttons: ^1.0.6+2
+  flutter_svg: ^1.1.2
+  bottom_navy_bar: ^6.0.0
 
 dev_dependencies:
   flutter_test:
