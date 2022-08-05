@@ -70,9 +70,12 @@ class _AppointmentsScreenState extends State<AppointmentsScreen> {
               fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
-        leading: const Icon(
-          Icons.arrow_back,
-          color: Colors.black,
+        leading: InkWell(
+          onTap: () => Navigator.of(context).pop(),
+          child: const Icon(
+            Icons.arrow_back,
+            color: Colors.black,
+          ),
         ),
       ),
       body: Column(
